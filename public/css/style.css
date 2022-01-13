@@ -1,0 +1,20 @@
+body {
+  background-color: #F4C095;
+}
+
+h1 {
+  font-size: 2em;
+  color: #717EC3;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+}
