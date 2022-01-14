@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Alfa Slab";
+  src: url("/static/fonts/AlfaSlabOne-Regular.ttf") format("truetype");
+}
+
+body {
+  background-image: url("/static/images/background.png");
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: #AAA;
+  text-align: center;
+  font-family: "Alfa Slab";
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #AAA;
+  text-align: center;
+  font-family: "Alfa Slab";
+}
+
+p {
+  color: #AAA;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  flex: 0 24%;
+  height: 300px;
+  margin-bottom: 4%; /* (100-32*3)/2 */
+}
+
+#banner {
+  text-align: right;
+}
